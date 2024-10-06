@@ -33,6 +33,9 @@ You can modify g_iDataSize and g_pucDataArray with your bitstream information. W
 
 ![image](https://github.com/user-attachments/assets/38b750bf-5614-4b31-8067-cd19c6f53d0d)
 
+Main.c follows procedure indicated in FPGA-TN-02069:
+![image](https://github.com/user-attachments/assets/26abf444-e299-48d3-bf25-53532882c9f4)
+
 
 Sample Waveform transactions:
 
