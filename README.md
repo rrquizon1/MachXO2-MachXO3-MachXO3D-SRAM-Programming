@@ -23,6 +23,20 @@ Steps to run the project:
 
 Key points to ensure during the Slave SPI (SSPI) configuration flow:
 
-1. Confirm that SSPI is activated in the feature row. SSPI 
+1. Confirm that SSPI is activated in the feature row. SSPI is activated in the feature row not via activation key like in Nexus devices. 
 
-2. Read the status registers before and after sending the bitstream to verify that the DONE bit is programmed correctly and there are no failure in configuration. 
+![image](https://github.com/user-attachments/assets/94e9dd47-ff00-4d1b-bbde-50bec039fc1c)
+
+2. Read the status registers before and after sending the bitstream to verify that the DONE bit is programmed correctly and there are no failure in configuration.
+
+You can modify g_iDataSize and g_pucDataArray with your bitstream information. With this example, MachXO3D Breakout board default bitstream is used which has 35331 bytes of data.
+
+![image](https://github.com/user-attachments/assets/38b750bf-5614-4b31-8067-cd19c6f53d0d)
+
+
+Sample Waveform transactions:
+
+Device ID read:
+![image](https://github.com/user-attachments/assets/de00569a-0d06-49ec-8c78-4f1a7835d131)
+
+
