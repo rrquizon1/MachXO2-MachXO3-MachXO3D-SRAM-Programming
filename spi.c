@@ -342,9 +342,8 @@ void fast_program(){
 	gpiod_line_set_value(cs, 0);
 
 	rbpi_tx(lsc_bitstream_burst,4);  //Send 0x7A command
-		for(int k=0;k<num_chunks;k++){
-		rbpi_tx(&g_pucDataArray[k*3],3);//Send bitstream by chunks.
-		}
+	rbpi_tx(g_pucDataArray,g_iDataSize);//Send bitstream
+		
 	
 	
 }

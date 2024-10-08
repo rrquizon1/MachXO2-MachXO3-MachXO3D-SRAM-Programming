@@ -32,27 +32,28 @@ int main() {
     //Device ID read 	
     device_id();
     
-    usleep(1000);
+    usleep(10);
     //ISC_ENABLE
     isc_enable();
-    usleep(1000);
+    usleep(10);
     
     //ISC_ERASE
     isc_erase();
-    usleep(1000);
+    usleep(10);
     
     //Status Register Check, DONE=0 and Fail=0
     sr_check(0);
     
+    //Send bitstream using LSC_BITSTREAM_BURST
     fast_program();
     
-    usleep(1000);
+    usleep(10);
     
     
     //Status Register Check, DONE=1 and Fail=0
     sr_check(1);
 
-    usleep(1000);
+    usleep(10);
 	
     //Exits programming mode and enters usermode
     isc_disable();
