@@ -47,7 +47,7 @@ Sample Waveform transactions:
 Device ID read:
 ![image](https://github.com/user-attachments/assets/de00569a-0d06-49ec-8c78-4f1a7835d131)
 
-DONE pin goes high after sending ISC_DISABLE:
+DONE pin goes high after sending ISC_DISABLE (0x26 00 00 00):
 ![image](https://github.com/user-attachments/assets/657745e4-fb65-40fc-af2c-4b57d46486ef)
 
 
