@@ -30,7 +30,7 @@ Key points to ensure during the Slave SPI (SSPI) configuration flow:
 You can check if you enabled SSPI in your project by going to Spreadsheet View:
 ![image](https://github.com/user-attachments/assets/64e561e6-ce76-4efb-8918-dac189a0e645)
 
-SSPI setting is stored in the feature row setting. This can be set via .fea file for MachXO3D and .jed file for MachXO2/MachXO3.
+SSPI setting is stored in the feature row setting. This can be found via .fea file for MachXO3D and .jed file for MachXO2/MachXO3.
 
 2. Read the status registers before and after sending the bitstream to verify that the DONE bit is programmed correctly and there are no failure in configuration.
 
