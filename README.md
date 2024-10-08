@@ -27,7 +27,7 @@ Key points to ensure during the Slave SPI (SSPI) configuration flow:
 
 ![image](https://github.com/user-attachments/assets/94e9dd47-ff00-4d1b-bbde-50bec039fc1c)
 
-You can check if you enabled SSPI in your project by going to global preferences:
+You can check if you enabled SSPI in your project by going to Spreadsheet View:
 ![image](https://github.com/user-attachments/assets/64e561e6-ce76-4efb-8918-dac189a0e645)
 
 SSPI setting is stored in the feature row setting. This can be set via .fea file for MachXO3D and .jed file for MachXO2/MachXO3.
